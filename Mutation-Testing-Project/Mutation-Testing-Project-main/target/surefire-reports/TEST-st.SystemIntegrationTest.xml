@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="st.SystemIntegrationTest" time="0.001" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\himan\OneDrive\Desktop\MUTATION_TESTING-main123\MUTATION_TESTING-main\Mutation-Testing-Project\Mutation-Testing-Project-main\target\test-classes;C:\Users\himan\OneDrive\Desktop\MUTATION_TESTING-main123\MUTATION_TESTING-main\Mutation-Testing-Project\Mutation-Testing-Project-main\target\classes;C:\Users\himan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\himan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\jdk-24.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\himan\AppData\Local\Temp\surefire15128938137457503515\surefirebooter4652606566191224300.jar C:\Users\himan\AppData\Local\Temp\surefire15128938137457503515 2025-11-26T20-41-16_513-jvmRun1 surefire17405459730789942022tmp surefire_07014319504103352107tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\himan\OneDrive\Desktop\MUTATION_TESTING-main123\MUTATION_TESTING-main\Mutation-Testing-Project\Mutation-Testing-Project-main\target\test-classes;C:\Users\himan\OneDrive\Desktop\MUTATION_TESTING-main123\MUTATION_TESTING-main\Mutation-Testing-Project\Mutation-Testing-Project-main\target\classes;C:\Users\himan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\himan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\himan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\jdk-24.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\himan\OneDrive\Desktop\MUTATION_TESTING-main123\MUTATION_TESTING-main\Mutation-Testing-Project\Mutation-Testing-Project-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\himan\AppData\Local\Temp\surefire15128938137457503515\surefirebooter4652606566191224300.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="himan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\himan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\himan\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Users\himan\OneDrive\Desktop\MUTATION_TESTING-main123\MUTATION_TESTING-main\Mutation-Testing-Project\Mutation-Testing-Project-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk-24.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\himan\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\himan\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\jdk-24.0.2\bin;C:\Users\himan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Users\himan\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\himan\AppData\Local\Programs\Python\Python312\;C:\Users\himan\AppData\Local\Microsoft\WindowsApps;C:\Users\himan\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\himan\AppData\Roaming\npm;C:\Users\himan\AppData\Local\JetBrains\Toolbox\scripts;c:\Users\himan\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testLogFileAnalysisSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testCodePlagiarismDetectionSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testCompleteTextSearchSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testURLPatternMatchingSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testPasswordStrengthAnalyzer" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testNaturalLanguageProcessingPipeline" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testDataDeduplicationSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testAutoCompleteSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testSpellCheckerSystem" classname="st.SystemIntegrationTest" time="0"/>
+  <testcase name="testDNASequenceAnalysisSystem" classname="st.SystemIntegrationTest" time="0"/>
+</testsuite>
